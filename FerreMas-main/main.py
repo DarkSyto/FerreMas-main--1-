@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException, Depends, Header, Query
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+from main import app
 import httpx
 from pydantic import BaseModel
 import stripe, os
