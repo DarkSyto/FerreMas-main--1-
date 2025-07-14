@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 app = FastAPI(
     title="API FERREMAS DUOC",
-    description="AAAAAAAAA LOCURA A LAS 3 AM",
+    description="API FERREMAS",
     version="1.0.0",
 )
 
